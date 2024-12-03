@@ -1,18 +1,18 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reCAPTCHA</title>
-  </head>
-  <body>
-
-      <br/>
-  
+</head>
+<body>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  <script type="text/javascript"> 
  if (grecaptcha.getResponse() == "success")
   {
      function Redirect()
       {
-         window.location.href = "ranveernair.me/index.html";
+         window.location.href = "ranveernair.me/home.html";
          }
 
            setTimeout(Redirect,1000);
@@ -21,5 +21,6 @@
               </script>
 
   <div data-type="image" class="g-recaptcha" data-sitekey="6LdrE5EqAAAAANEwAk7zPp2_jLKbHzEe5snaCzsH"></div> 
-  </body>
+
+</body>
 </html>
