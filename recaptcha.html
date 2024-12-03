@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>reCAPTCHA</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdrE5EqAAAAANEwAk7zPp2_jLKbHzEe5snaCzsH"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <script type="text/javascript"> 
+ if (grecaptcha.getResponse() == "success")
+  {
+     function Redirect()
+      {
+         window.location.href = "ranveernair.me/index.html";
+         }
+
+           setTimeout(Redirect,1000);
+            }
+             else alert("You can't proceed!");
+              </script>
+
+  <div data-type="image" class="g-recaptcha" data-sitekey="my-sitekey"></div> 
+  </body>
+</html>
